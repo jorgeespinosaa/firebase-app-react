@@ -19,7 +19,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
       <div className="container">
-        <Link className="navbar-brand">Firebase App</Link>
+        <Link className="navbar-brand" to="/">Firebase App</Link>
         <button
           className="navbar-toggler"
           type="button"
